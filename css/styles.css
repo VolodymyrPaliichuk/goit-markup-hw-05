@@ -231,6 +231,14 @@ img {
 .main-section-work {
   padding-top: 120px;
 }
+
+.hidden-title {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+}
+
 .work-list {
   display: flex;
   gap: 24px;
